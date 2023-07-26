@@ -35,12 +35,6 @@ contract KitsuneNFTs is ERC721A {
         return baseURI;
     }
 
-    // function getBalance(address a) public view returns (uint256) {
-    //     uint256 bal = balanceOf(a);
-    //     console.log(bal);
-    //     return bal;
-    // }
-
     function promptDescription() external view returns (string memory) {
         return prompt;
     } 

@@ -19,9 +19,6 @@ async function main() {
     await approveTx.wait();
     console.log("Approval confirmed");
     
-    // nftIds to transfer
-    // const nftIds = [0, 1, 2, 3, 4];
-
     // Deposit the nfts to the FXRoot contracts
     for(let i=0; i<40; i++){
         console.log(`Depositing NFT with nft ID ${i} to the FxPortal Bridge...`);
@@ -32,8 +29,8 @@ async function main() {
     }
     console.log("Approved and deposited");
     
-    // const balance = await nft.balanceOf(signerAddress);
-    // console.log(ethers.toNumber(balance));
+    const balance = await nft.balanceOf(signerAddress);
+    console.log(ethers.toNumber(balance));
   
   }
   
