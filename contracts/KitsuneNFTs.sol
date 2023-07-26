@@ -2,7 +2,6 @@
 pragma solidity >= 0.7.0;
 
 import "erc721a/contracts/ERC721A.sol";
-import "hardhat/console.sol";
 
 contract KitsuneNFTs is ERC721A {
     address public owner = msg.sender;
