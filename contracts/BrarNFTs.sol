@@ -10,7 +10,7 @@ contract BrarNFTs is ERC721A {
     uint256 public maxMints = 1000;//An address can only ever mint this many nfts
 
     // Base uri for the nfts metadataurl
-    string baseURI = "ipfs://QmaeF2UdtREUKzh2hqEGrr552vYfeqs5iHFhNiwg5U6cdP/";
+    string baseURI = "https://gateway.pinata.cloud/ipfs/QmPvp49AcQZhLpJ59G79gJa9qHUiLhekRVyHFWxfG4csF4/";
 
     // Prompt description
     string public prompt = "Brar Collection";
