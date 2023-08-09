@@ -6,7 +6,7 @@ This project contains a simple ERC-721A smart contract for creating and managing
 1. Make sure to add a .env file and add your account's Private Key in the file.
 2. You can customize the number of NFTs to be minted and the base URL for the images in the batchMint.js script and the NFT.sol contract, respectively.
 ## Description
-A 5-item NFT collection has been created using "Stable Diffusion". The items are stored on IPFS using pinata.cloud.  ERC721A smart contract is deployed to the Goerli Ethereum Testnet. There is a promptDescription function on the contract that returns the prompt used to generate the images. There is a hardhat script to batch mint all NFTs and a hardhat script to batch transfer all NFTs from Ethereum to Polygon Mumbai using the FxPortal Bridge. The NFTs are approved for transfer and deposited to the Bridge. The getBalance script can be run to check the NFTs on Mumbai.
+A 5-item NFT collection has been created using "Stable Diffusion". The items are stored on IPFS using pinata.cloud.  ERC721A smart contract is deployed to the Goerli Ethereum Testnet. There is a promptDescription function on the contract that returns the prompt used to generate the images. 
 ## Getting Started
 
 1. Clone the repository:
@@ -37,8 +37,6 @@ To batch mint tokens: npx hardhat run scripts/BatchMint.js --network goerli
 To approve and deposit your tokens to polygon: npx hardhat run scripts/BatchTransfer.js --network goerli
 
 To see the new polygon balance: npx hardhat run scripts/getBalance.js --network mumbai
-
-
 
 
 
