@@ -44,7 +44,7 @@ To see the new polygon balance: npx hardhat run scripts/getBalance.js --network 
 - ethers.js - Library for interacting with Ethereum smart contracts  
 - Hardhat - Development environment and task runner for building, testing, and deploying smart contracts on Ethereum and other blockchain platforms
 ## Authors
-- [Vaginderpal](https://github.com/Vaginderpal)
+- [Vaginderpal Singh Brar](https://github.com/Vaginderpal)
 
 
 
