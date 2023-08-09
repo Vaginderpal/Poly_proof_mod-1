@@ -1,12 +1,12 @@
 require('dotenv').config()
 
-const nftAddress = "0xe6593c6bACA28B2b77b6b1109D449C5e1d47e77D"; //contract address
+const nftAddress = "0x31cbA7F0527d3135992C483E2bFA2DE37E18CC9d"; //contract address
 
 async function main() {
 
     const [signer] = await ethers.getSigners();
     signerAddress = signer.address;
-    const NFTContract = await ethers.getContractFactory("KitsuneNFTs");
+    const NFTContract = await ethers.getContractFactory("BrarNFTs");
     const nftcontract = await NFTContract.attach(nftAddress);
     
     // Call the mint function on the contract to mint 40 nfts
