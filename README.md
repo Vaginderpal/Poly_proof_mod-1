@@ -9,7 +9,7 @@ A 5-item NFT collection has been created using "Stable Diffusion". The items are
 1. Clone the repository:
 
 ```
-git clone <https://github.com/Isheta20/Bridge-NFT.git>
+git clone <https://github.com/Vaginderpal/Poly_proof_mod-1.git>
 ```
 
 2. Install the dependencies :
@@ -44,14 +44,7 @@ To see the new polygon balance: npx hardhat run scripts/getBalance.js --network 
 - ethers.js - Library for interacting with Ethereum smart contracts  
 - Hardhat - Development environment and task runner for building, testing, and deploying smart contracts on Ethereum and other blockchain platforms
 ## Authors
-- [@Isheta20](https://github.com/Isheta20)
-- [Linkedin](www.linkedin.com/in/isheta-aggarwal-76a91b230)
+- [Vaginderpal](https://github.com/Vaginderpal)
 
 
-
-
-## License
-
-This project is licensed under the MIT License - see [MIT LICENSE](LICENSE)
- for details
 

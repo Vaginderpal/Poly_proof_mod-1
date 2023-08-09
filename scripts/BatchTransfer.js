@@ -2,7 +2,7 @@ const hre = require("hardhat");
 const fxRootContractABI = require("../FXRootContractABI.json");
 const nftContractJSON = require("../artifacts/contracts/BrarNFTs.sol/BrarNFTs.json");
 
-const nftAddress = "0xEa7B25a3fE0f4aa527e44EBe1A381BBa0b05a2fb"; //contract address
+const nftAddress = "0x31cbA7F0527d3135992C483E2bFA2DE37E18CC9d"; //contract address
 const nftABI = nftContractJSON.abi;
 const fxRootAddress = "0xF9bc4a80464E48369303196645e876c8C7D972de";
 
