@@ -2,6 +2,9 @@
 # Bridge-NFT
 
 This project contains a simple ERC-721A smart contract for creating and managing non-fungible tokens (NFTs). The contract allows users to mint new NFTs, set their metadata (URI), and check the balance of NFTs. You can also bridge your nfts to some other network using the FxPortal bridge.
+## Note 
+1. Make sure to add a .env file and add your account's Private Key in the file.
+2. You can customize the number of NFTs to be minted and the base URL for the images in the batchMint.js script and the NFT.sol contract, respectively.
 ## Description
 A 5-item NFT collection has been created using "Stable Diffusion". The items are stored on IPFS using pinata.cloud.  ERC721A smart contract is deployed to the Goerli Ethereum Testnet. There is a promptDescription function on the contract that returns the prompt used to generate the images. There is a hardhat script to batch mint all NFTs and a hardhat script to batch transfer all NFTs from Ethereum to Polygon Mumbai using the FxPortal Bridge. The NFTs are approved for transfer and deposited to the Bridge. The getBalance script can be run to check the NFTs on Mumbai.
 ## Getting Started
